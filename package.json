@@ -1,0 +1,31 @@
+{
+  "name": "three-tiered-app",
+  "version": "1.0.0",
+  "description": "little application",
+  "main": "http-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+    "start": "node http_server.js"
+  },
+  "engines": {
+    "node": "16.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leahselig/deployed-three-tiered-app"
+  },
+  "author": "leah-selig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leahselig/deployed-three-tiered-app/issues"
+  },
+  "homepage": "https://github.com/leahselig/deployed-three-tiered-app#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "faker": "^6.6.6",
+    "lowdb": "^1.0.0"
+  }
+}
